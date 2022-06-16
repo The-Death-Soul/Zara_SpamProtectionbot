@@ -49,15 +49,15 @@ async def help_command(_, message: Message):
     kb = ikb(
         {
             "💫𝐇𝐞𝐥𝐩💫": "bot_commands",
-            "🍹𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫🍹": "https://t.me/The_Death_Soul",
+            "🍹𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫🍹": "https://t.me/Zain_THE_Addictions",
             "💠𝐀𝐝𝐝 𝐌𝐞💠": f"https://t.me/{BOT_USERNAME}?startgroup=new",
-            "🥂𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐂𝐡𝐚𝐭🥂": "https://t.me/Love_Dear_Comrades",
+            "🥂𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐂𝐡𝐚𝐭🥂": "https://t.me/+TFNht-Xwon1lM2Y1",
         }
     )
     mention = message.from_user.mention
     await message.reply_photo(
         "https://te.legra.ph/file/6346e511ab1a8b2aeb17b.jpg",
-        caption=f"Hi {mention}, 🕊️I'ɱ Zαɾα SραɱPɾσƚҽƈƚισɳႦσƚ🕊️,"
+        caption=f"Hi {mention}, 🕊️I'ɱ Zαɾα SραɱPɾσƚҽƈƚႦσƚ🕊️,"
         + " Zαɾα Sραɱ ρɾσƚҽƈƚισɳ ιʂ αɳ ҽʂʂҽɳƚιαʅ ραɾƚ σϝ ɱαɳαɠιɳɠ Pɾιʋαƈყ αɳԃ Pσʅιƈιҽʂ.Cԋσσʂҽ αɳ σρƚισɳ ϝɾσɱ Ⴆҽʅσɯ..",
         reply_markup=kb,
     )
@@ -83,7 +83,7 @@ async def help_parser(name, keyboard=None):
             paginate_modules(0, HELPABLE, "help")
         )
     return (
-        f"Hello {name}, 🕊️I'ɱ Zαɾα SραɱPɾσƚҽƈƚισɳႦσƚ🕊️, I ƈαɳ ρɾσƚҽƈƚ  "
+        f"Hello {name}, 🕊️I'ɱ Zαɾα SραɱPɾσƚҽƈƚႦσƚ🕊️, I ƈαɳ ρɾσƚҽƈƚ  "
         + "ყσυɾ ɠɾσυρ ϝɾσɱ Sραɱ αɳԃ NSFW ɱҽԃια "
         + "υʂιɳɠ ɱαƈԋιɳҽ ʅҽαɾɳιɳɠ. Cԋσσʂҽ αɳ σρƚισɳ ϝɾσɱ Ⴆҽʅσɯ.",
         keyboard,
@@ -99,7 +99,7 @@ async def help_button(client, query: CallbackQuery):
     create_match = re.match(r"help_create", query.data)
     u = query.from_user.mention
     top_text = (
-        f"Hello {u}, 🕊️I'ɱ Zαɾα SραɱPɾσƚҽƈƚισɳႦσƚ🕊️, I ƈαɳ ρɾσƚҽƈƚ "
+        f"Hello {u}, 🕊️I'ɱ Zαɾα SραɱPɾσƚҽƈƚႦσƚ🕊️, I ƈαɳ ρɾσƚҽƈƚ "
         + "ყσυɾ ɠɾσυρ ϝɾσɱ Sραɱ αɳԃ NSFW ɱҽԃια "
         + "υʂιɳɠ ɱαƈԋιɳҽ ʅҽαɾɳιɳɠ. Cԋσσʂҽ αɳ σρƚισɳ ϝɾσɱ Ⴆҽʅσɯ."
     )
